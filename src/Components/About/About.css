@@ -1,0 +1,28 @@
+.about-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgb(175, 175, 175); */
+}
+
+.about_title {
+    /* background: blue; */
+}
+
+.about-title-inner {
+    /* background: red; */
+}
+
+.image-container {
+    border: white solid 6px;
+    height: 300px;
+    width: 400px;
+    /* background: yellow; */
+    overflow: hidden;
+    /* display: flex; */
+}
+.image-container img {
+    width: 410px;
+    position: relative;
+    bottom: 90px;
+}
