@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import './Work.css';
 import mtgPhoto from '../../images/MTG.png';
 import taskRabbit from '../../images/TaskRabbit.png';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import rabbitMessages from '../../images/TrMessages.png';
+import rabbitForm from '../../images/TRForm.png';
+import rabbitAccount from '../../images/TRAccount.png';
+import magicBuilder from '../../images/magicBuilder.png';
+import magicDecks from '../../images/magicDecks.png';
+
+
 
 class Work extends Component {
     constructor() {
@@ -10,13 +17,21 @@ class Work extends Component {
         this.state = {
             projects: [ 
                 {
-                    image: taskRabbit,
-                    link: 'https://www.taskrabbit.com/'
+                    image: mtgPhoto,
+                    link: 'https://www.mtgbuilder.site/',
+                    project: "Personal Project: MTG Deck Builder",
+                    smallImg1: magicBuilder,
+                    smallImg2: magicDecks,
+                    // smallImg3: ''
                 }, 
                 {
-                    image: mtgPhoto,
-                    link: 'https://www.mtgbuilder.site/'
-                } 
+                    image: taskRabbit,
+                    link: 'https://www.taskrabbit.com/',
+                    project: 'Group Project: Taskrabbit Clone',
+                    smallImg1: rabbitMessages,
+                    smallImg2: rabbitForm,
+                    // smallImg3: rabbitAccount
+                }, 
             ]
         }
     }
@@ -24,9 +39,19 @@ class Work extends Component {
         const { projects } = this.state;
         let myProjects = projects.map(e => {
             return (
-                <span className='project-images'>
-                    <a href={e.link}><img src={e.image} /></a>
-                </span>
+                <div className='projects'>
+                     <div className='projects-main'>
+                        <div className='large-image'>
+                            <img src={e.image} />
+                            <h2>{e.project}</h2>
+                        </div>
+                        <div className='small-images'>
+                            <img src={e.smallImg1} />
+                            <img src={e.smallImg2} />
+                            {/* <img src={e.smallImg3} /> */}
+                        </div>
+                     </div>
+                </div>
             )
         })
         return (
@@ -37,6 +62,9 @@ class Work extends Component {
                             <h1>J.T. Horton</h1>
                             <p>Web Developer & Designer</p>
                         </div>
+                    </div>
+                    <div className='skills'>
+                        <h2>REACT | NODE | JavaScript | CSS</h2>
                     </div>
                     <div className='myProjects-container'>
                         <div className='myProjects'>

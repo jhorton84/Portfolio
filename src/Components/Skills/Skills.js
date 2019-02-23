@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './Resume.css';
 
-export default class Resume extends Component {
+export default class Skills extends Component {
     render() {
         return (
             <div>
-                <p>Resume Component</p>
+                Skills
             </div>
         );
     }

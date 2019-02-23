@@ -7,11 +7,15 @@ export default class About extends Component {
         return (
             <div className='about-component'>
                 <div className='about_title' >
+                    <h1>Who is this guy?</h1>
                     <div className='about-title-inner'>
-                        <h1>J.T. Horton</h1>
-                        <p>Web Developer & Designer</p>
                         <div className='image-container'>
                             <img src={profile_image} />
+                        </div>
+                        <div>
+                            <h2>J.T. Horton</h2>
+                            <p>Web Developer & Designer</p>
+                            
                         </div>
                     </div>
                 </div>

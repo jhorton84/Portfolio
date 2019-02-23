@@ -5,6 +5,7 @@ nav {
     align-items: center;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
 }
 
 nav ul {
@@ -24,7 +25,7 @@ nav a, nav p, nav div {
     color: gray;
 }
 a:hover {
-    color: black;
+    color: rgb(8, 187, 184);
 }
 .brand {
     display: flex;
@@ -35,6 +36,9 @@ a:hover {
 }
 .brand img {
     height: 60px;
+}
+.brand p {
+    font-size: 30px;
 }
 .active {
     color: rgb(0, 153, 255);

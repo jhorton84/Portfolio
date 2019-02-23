@@ -1,8 +1,10 @@
 .about-component {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background: rgb(175, 175, 175); */
+    background-color: rgb(1, 29, 53);
+    color: white;
 }
 
 .about_title {
@@ -11,18 +13,21 @@
 
 .about-title-inner {
     /* background: red; */
+    color: white;
 }
 
 .image-container {
     border: white solid 6px;
     height: 300px;
     width: 400px;
-    /* background: yellow; */
     overflow: hidden;
-    /* display: flex; */
+    transform: rotate(-20deg);
+    position: fixed;
+    left: 70px;
 }
 .image-container img {
     width: 410px;
     position: relative;
     bottom: 90px;
+    
 }
