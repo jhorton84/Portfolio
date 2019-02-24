@@ -13,9 +13,9 @@ function Nav(props) {
                 </div>
                 <ul>
                     <li><NavLink activeClassName='active' exact to='/Portfolio'>work</NavLink></li>
-                    <li><NavLink activeClassName='active' to='/skills'>skills</NavLink></li>
-                    <li><NavLink activeClassName='active' to='/about'>about</NavLink></li>
-                    <li><NavLink activeClassName='active' to='/contact'>contact</NavLink></li>
+                    <li><NavLink activeClassName='active' to='/Portfolio/skills'>skills</NavLink></li>
+                    <li><NavLink activeClassName='active' to='/Portfolio/about'>about</NavLink></li>
+                    <li><NavLink activeClassName='active' to='/Portfolio/contact'>contact</NavLink></li>
                 </ul>
             </div>
         </nav>
