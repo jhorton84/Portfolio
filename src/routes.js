@@ -11,7 +11,7 @@ import Contact from './Components/Contact/Contact';
 // ------Routes--------
 export default (
     <Switch>
-        <Route exact path='/' component={Work} />
+        <Route exact path='/Portfolio' component={Work} />
         <Route exact path='/about' component={About} />
         <Route exact path='/skills' component={Skills} />
         <Route exact path='/contact' component={Contact} />

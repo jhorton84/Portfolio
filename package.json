@@ -2,12 +2,14 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jhorton84.github.io/Portfolio/",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
+    "gh-pages": "^2.0.1",
     "http-proxy-middleware": "^0.19.1",
     "massive": "^5.7.5",
     "react": "^16.8.2",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
