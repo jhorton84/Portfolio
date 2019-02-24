@@ -64,7 +64,7 @@ class Work extends Component {
                         </div>
                     </div>
                     <div className='skills'>
-                        <h2>REACT | NODE | JavaScript | CSS</h2>
+                        <h1>Projects</h1>
                     </div>
                     <div className='myProjects-container'>
                         <div className='myProjects'>

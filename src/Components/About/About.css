@@ -1,33 +1,116 @@
 .about-component {
-    height: 100vh;
+    height: calc(100vh + 560px);
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(1, 29, 53);
     color: white;
+    position: relative;
+    /* top: 10px; */
+    /* justify-content: center; */
 }
-
+.about-component > div {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 29, 53);
+    height: 100%;
+}
+.about-component h1 {
+    font-size: 70px;
+    margin: 0;
+}
+.about-component h2 {
+    font-size: 40px;
+    margin: 0;
+}
+.about-component p {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+}
 .about_title {
-    /* background: blue; */
+    /* background: rgb(0, 153, 255); */
+    background: whitesmoke;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+    color: rgb(0, 153, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* box-shadow: 12px 12px 24px 4px rgb(7, 7, 7); */
 }
 
-.about-title-inner {
-    /* background: red; */
+.about-main {
+    background: whitesmoke;
     color: white;
+    display: flex;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 12px 12px 24px 4px rgb(7, 7, 7);
 }
-
+.left-container {
+    /* background: whitesmoke; */
+    border: solid orange 8px;
+    border-right: none;
+    /* background: rgb(8, 187, 184); */
+}
+.right-container {
+    border: solid orange 8px;
+    /* background: whitesmoke; */
+}
 .image-container {
     border: white solid 6px;
     height: 300px;
     width: 400px;
     overflow: hidden;
-    transform: rotate(-20deg);
-    position: fixed;
-    left: 70px;
+    left: -550px;
+    top: 50px;
 }
 .image-container img {
     width: 410px;
     position: relative;
     bottom: 90px;
     
+}
+.about-body {
+    display: flex;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.about-body p {
+    margin: 10px;
+    color: black;
+}
+.about-body ul {
+    margin: 0;
+}
+.about-body li {
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+}
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: black; */
+    color: black;
+}
+.icons-container img {
+    height: 100px;
+}
+.icon-row {
+    display: flex;
+}
+.icons {
+    margin: 30px;
 }
