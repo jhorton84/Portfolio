@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import './Projects.css';
 import mtgPhoto from '../../images/MTG.png';
 import taskRabbit from '../../images/TaskRabbit.png';
-// import { Link } from 'react-router-dom';
 import rabbitMessages from '../../images/TrMessages.png';
 import rabbitForm from '../../images/TRForm.png';
-// import rabbitAccount from '../../images/TRAccount.png';
 import magicBuilder from '../../images/magicBuilder.png';
 import magicDecks from '../../images/magicDecks.png';
-
+import githubIcon from '../../images/skills_icons/icons8-github.svg';
 
 
 class Projects extends Component {
@@ -22,15 +20,21 @@ class Projects extends Component {
                     project: "Personal Project: MTG Deck Builder",
                     smallImg1: magicBuilder,
                     smallImg2: magicDecks,
-                    // smallImg3: ''
+                    // smallImg3: '',
+                    github: 'https://github.com/jhorton84/MTG-deckbuilder'
                 }, 
                 {
                     image: taskRabbit,
-                    link: 'https://www.taskrabbit.com/',
+                    // link: 'https://www.taskrabbit.com/',
+                    link: function() { 
+                        alert('Sorry! This site is temporarily under construction')
+                    },
                     project: 'Group Project: Taskrabbit Clone',
                     smallImg1: rabbitMessages,
                     smallImg2: rabbitForm,
-                    // smallImg3: rabbitAccount
+                    // smallImg3: rabbitAccount,
+                    github: 'https://github.com/tiffzhong/task-rabbit/tree/master/src'
+                    
                 }, 
             ]
         }
@@ -44,11 +48,14 @@ class Projects extends Component {
                         <div className='large-image'>
                             <img src={e.image} />
                             <div className='project-name-container'>
-                                <h2>{e.project}
-                                    <a href={e.link} target='_blank'>
-                                        <button>Go to Site</button>
+                                <h2>{e.project}</h2>
+                                <div className='project-links'>
+                                    <a href={e.link}  target='_blank'>
+                                        <button  >Go to Site</button>
                                     </a>
-                                </h2>
+                                    <a href={e.github} target='_blank' ><button>Visit Github Repo</button></a>
+                                    {/* <p>Visit the Github Repo</p> */}
+                                </div>
                             </div>
                         </div>
                         <div className='small-images'>
