@@ -50,7 +50,7 @@ class Projects extends Component {
                             <div className='project-name-container'>
                                 <h2>{e.project}</h2>
                                 <div className='project-links'>
-                                    <a href={e.link}  target='_blank'>
+                                    <a href={e.link}  target='_blank' onClick={e.link}>
                                         <button  >Go to Site</button>
                                     </a>
                                     <a href={e.github} target='_blank' ><button>Visit Github Repo</button></a>
