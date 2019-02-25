@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "be8fde40b59483d69b80d55824458d4c",
-    "url": "/Portfolio/static/media/icons8-npm.be8fde40.svg"
+    "revision": "8c5a6768daf5f0c76d1a25111a0535c9",
+    "url": "/Portfolio/static/media/icons8-nodejs.8c5a6768.svg"
   },
   {
-    "revision": "40f2ee091a1270ad859a",
-    "url": "/Portfolio/static/css/main.8e5ead9b.chunk.css"
+    "revision": "bf4b0e4677ce37ed8b81",
+    "url": "/Portfolio/static/css/main.f39d36e8.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
     "url": "/Portfolio/static/js/runtime~main.591eb5be.js"
   },
   {
-    "revision": "9f4fc61665c0713069eb",
-    "url": "/Portfolio/static/js/2.9f4fc616.chunk.js"
-  },
-  {
-    "revision": "cc6dec76c1ac0fe892ee11fdc5125cea",
-    "url": "/Portfolio/static/media/icons8-html-5.cc6dec76.svg"
+    "revision": "c5a388ea018a9f4f1940",
+    "url": "/Portfolio/static/js/2.c5a388ea.chunk.js"
   },
   {
     "revision": "a861f00352e24640d84add0f3d9393cb",
     "url": "/Portfolio/static/media/icons8-github.a861f003.svg"
+  },
+  {
+    "revision": "982918f38c8c5f4679f725650dde0e97",
+    "url": "/Portfolio/static/media/profile_image.982918f3.jpg"
+  },
+  {
+    "revision": "cc6dec76c1ac0fe892ee11fdc5125cea",
+    "url": "/Portfolio/static/media/icons8-html-5.cc6dec76.svg"
   },
   {
     "revision": "5f11f090859121a4d90d4613afd1a010",
@@ -36,12 +40,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/icons8-javascript.9366806d.svg"
   },
   {
-    "revision": "8c5a6768daf5f0c76d1a25111a0535c9",
-    "url": "/Portfolio/static/media/icons8-nodejs.8c5a6768.svg"
-  },
-  {
-    "revision": "40f2ee091a1270ad859a",
-    "url": "/Portfolio/static/js/main.40f2ee09.chunk.js"
+    "revision": "bf4b0e4677ce37ed8b81",
+    "url": "/Portfolio/static/js/main.bf4b0e46.chunk.js"
   },
   {
     "revision": "6c3cbb01d5d2afa13e14c536d7af06e2",
@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/magicDecks.6307cbbb.png"
   },
   {
-    "revision": "982918f38c8c5f4679f725650dde0e97",
-    "url": "/Portfolio/static/media/profile_image.982918f3.jpg"
+    "revision": "be8fde40b59483d69b80d55824458d4c",
+    "url": "/Portfolio/static/media/icons8-npm.be8fde40.svg"
   },
   {
-    "revision": "71c3d6c057e437fb339ff195954c3ba4",
-    "url": "/Portfolio/static/media/TRAccount.71c3d6c0.png"
+    "revision": "991411505951f7763636c7f0fa823803",
+    "url": "/Portfolio/static/media/icons8-linkedin.99141150.svg"
   },
   {
-    "revision": "1ecd94a0d345c09a07f6a5ab49ad96a0",
+    "revision": "d8ad0f1d52048dd3b09918c50682f6de",
     "url": "/Portfolio/index.html"
   }
 ];
