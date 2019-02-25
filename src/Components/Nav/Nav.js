@@ -12,7 +12,8 @@ function Nav(props) {
                     <p>Justin Horton: Web Development</p>
                 </div>
                 <ul>
-                    <li><NavLink activeClassName='active' exact to='/Portfolio'>work</NavLink></li>
+                    <li><NavLink activeClassName='active' exact to='/Portfolio'>home</NavLink></li>
+                    <li><NavLink activeClassName='active' exact to='/Portfolio/projects'>projects</NavLink></li>
                     <li><NavLink activeClassName='active' to='/Portfolio/skills'>skills</NavLink></li>
                     <li><NavLink activeClassName='active' to='/Portfolio/about'>about</NavLink></li>
                     <li><NavLink activeClassName='active' to='/Portfolio/contact'>contact</NavLink></li>

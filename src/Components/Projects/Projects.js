@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './Work.css';
+import './Projects.css';
 import mtgPhoto from '../../images/MTG.png';
 import taskRabbit from '../../images/TaskRabbit.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import rabbitMessages from '../../images/TrMessages.png';
 import rabbitForm from '../../images/TRForm.png';
-import rabbitAccount from '../../images/TRAccount.png';
+// import rabbitAccount from '../../images/TRAccount.png';
 import magicBuilder from '../../images/magicBuilder.png';
 import magicDecks from '../../images/magicDecks.png';
 
 
 
-class Work extends Component {
+class Projects extends Component {
     constructor() {
         super();
         this.state = {
@@ -43,7 +43,13 @@ class Work extends Component {
                      <div className='projects-main'>
                         <div className='large-image'>
                             <img src={e.image} />
-                            <h2>{e.project}</h2>
+                            <div className='project-name-container'>
+                                <h2>{e.project}
+                                    <a href={e.link} target='_blank'>
+                                        <button>Go to Site</button>
+                                    </a>
+                                </h2>
+                            </div>
                         </div>
                         <div className='small-images'>
                             <img src={e.smallImg1} />
@@ -55,15 +61,15 @@ class Work extends Component {
             )
         })
         return (
-            <div className='work-component'>
+            <div className='Projects-component'>
                 <div>
-                    <div className='title'>
+                    {/* <div className='title'>
                         <div className='title-inner'>
                             <h1>J.T. Horton</h1>
                             <p>Web Developer & Designer</p>
                         </div>
-                    </div>
-                    <div className='skills'>
+                    </div> */}
+                    <div className='project-title'>
                         <h1>Projects</h1>
                     </div>
                     <div className='myProjects-container'>
@@ -77,4 +83,4 @@ class Work extends Component {
     }
 }
 
-export default Work;
+export default Projects;

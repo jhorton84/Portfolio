@@ -26,32 +26,36 @@
     /* box-shadow: 12px 12px 24px 4px rgb(7, 7, 7); */
 }
 .descriptions {
-    color: white;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .skill_description {
     position: relative;
     background: whitesmoke;
     display: flex;
     margin: 20px;
-    padding: 10px;
     border: solid orange 2.5px;
 }
 .skill-title {
-    width: 200px;
-    margin-right: 10px;
+    height: 220px;
+    width: 100px;
+    margin-right: 20px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skill-title h2 {
-    color: orange;
-    left: 0;
-    top: 0;
+    color: rgb(0, 153, 255);
     margin: 0;
+    transform: rotate(90deg);
+    /* background: orange; */
 }
 .skill-body {
     width: 800px;
+    display: flex;
+    align-items: center;
 }
 .skill-body p {
     text-align: left;

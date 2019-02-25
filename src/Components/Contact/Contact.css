@@ -3,6 +3,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(1, 29, 53);
+    background-color: darkgray;
     color: white;
+}
+.contact-inner-container {
+    height: 70%;
+    width: 70%;
+    background-color: rgb(1, 29, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: orange solid 4px;
+
+}
+.contact-inner-container textarea {
+    height: 200px;
+    width: 600px;
+}
+.submit-button {
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.submit-button:hover {
+    background: white;
+    color: rgb(2, 78, 145);
+}
+.icon-container {
+    /* background: white; */
+    margin: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.icon-container p {
+    margin: 0;
+}
+.icon-container img {
+    height: 150px;
+    margin: 0;
 }

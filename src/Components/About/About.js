@@ -7,7 +7,7 @@ import cssIcon from '../../images/skills_icons/icons8-css3.svg';
 import reactIcon from '../../images/reactIcon.svg';
 import javascriptIcon from '../../images/skills_icons/icons8-javascript.svg';
 import nodeIcon from '../../images/skills_icons/icons8-nodejs.svg';
-import npmIcon from '../../images/skills_icons/icons8-npm.svg';
+// import npmIcon from '../../images/skills_icons/icons8-npm.svg';
 
 export default class About extends Component {
     render() {
