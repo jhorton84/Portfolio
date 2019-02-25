@@ -33,7 +33,7 @@ class Projects extends Component {
                     smallImg1: rabbitMessages,
                     smallImg2: rabbitForm,
                     // smallImg3: rabbitAccount,
-                    github: 'https://github.com/tiffzhong/task-rabbit/tree/master/src'
+                    github: 'https://github.com/tiffzhong/task-rabbit'
                     
                 }, 
             ]
