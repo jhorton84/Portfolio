@@ -13,7 +13,7 @@ export default class About extends Component {
     render() {
         return (
             <div className='about-component'>
-                <div>
+                <div className='about-inner'>
                     <div className='about_title' >
                         <h1>ABOUT ME</h1>
                         {/* <h2>J.T. Horton</h2>

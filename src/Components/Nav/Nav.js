@@ -5,7 +5,7 @@ import './Nav.css';
 
 function Nav(props) {
     return (
-        <nav>
+        <div className='nav'>
             <div className='wrapper'>
                 <div className='brand'>
                     {/* <img src='http://www.logospng.com/images/107/downloads-archive-page-5-of-10-free-logo-elements-107167.png' /> */}
@@ -19,7 +19,7 @@ function Nav(props) {
                     <li><NavLink activeClassName='active' to='/contact'>contact</NavLink></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     )
 }
 

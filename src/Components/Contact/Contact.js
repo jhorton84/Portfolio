@@ -15,7 +15,9 @@ export default class Contact extends Component {
                         <form action="https://formspree.io/justin.horton13@gmail.com" method="POST" >
                             {/* <input type="text" name="name"></input> */}
                             <textarea type="email" name="message" placeholder='send me an email'></textarea>
-                            <div><input type="submit" value="Send" className='submit-button'></input></div>
+                            <div className='sub-button-container'>
+                                <input type="submit" value="Send" className='submit-button'></input>
+                            </div>
                         </form>
                         <div className='icon-container' >
                             <div className='icon'>
