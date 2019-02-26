@@ -13,7 +13,7 @@ import Contact from './Components/Contact/Contact';
 // ------Routes--------
 export default (
     <Switch>
-        <Route exact path='/home' component={Home} />
+        <Route exact path='/' component={Home} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/about' component={About} />
         <Route exact path='/skills' component={Skills} />
