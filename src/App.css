@@ -5,7 +5,10 @@
   height: 100%;
   background: red;
   /* display: flex; */
-  position: fixed;
+  /* position: absolute; */
+}
+body {
+  /* position: fixed; */
 }
 p, h2 {
   font-weight: 600;

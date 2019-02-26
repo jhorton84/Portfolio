@@ -4,7 +4,7 @@
     /* background: blue; */
     /* width:100vw; */
     background-origin: padding-box;
-    height: 100%;
+    /* height: 100%; */
 }
 .background-image {
     position: fixed;
@@ -90,8 +90,12 @@
     }
 }
 @media (max-width: 420px){
+    
+    .home-component{
+        /* height: 100px; */
+    }
     .background-image img{
-        height: 370px;
+        height: 85%;
         /* display: none; */
     }
     .header {
@@ -104,6 +108,7 @@
     .home-image {
         height: 120px;
         width: 120px;
+        top: 20px;
     }
     .home-image img {
         width: 120px;
