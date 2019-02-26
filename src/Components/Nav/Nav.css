@@ -121,7 +121,7 @@ li .active {
 }
 @media (max-width: 400px) {
     .nav {
-        position: absolute;
+        position: fixed;
         z-index: 10;
         justify-content: flex-end;
         /* top: 150px; */
@@ -168,7 +168,7 @@ li .active {
         transition: 1s;
         overflow-x: hidden;
         /* width: 0px; */
-        transform: translate(400px);
+        transform: translate(300px);
     }
     .nav button {
         background: orange;
