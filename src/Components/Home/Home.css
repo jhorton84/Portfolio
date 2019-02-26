@@ -16,7 +16,7 @@
     height: 100vh;
 }
 header {
-    position: absolute;
+    /* position: absolute; */
     top: 20%;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ header {
 .title {
     background: rgba(0, 0, 0, 0.392);
     height: 160px;
-    width: 100vw;
+    width: 100%;
     margin: 40px;
     border-bottom: solid rgb(221, 221, 221) 2.5px;
     border-top: solid rgb(221, 221, 221) 2.5px;
@@ -37,6 +37,7 @@ header {
     justify-content: center;
     position: relative;
     /* top: 30px; */
+    /* left: 10px; */
     
 }
 .title-inner {
@@ -62,9 +63,27 @@ header {
     border-radius: 50%;
     overflow: hidden;
     border: 8px orange solid;
+    z-index: 5;
+    position: relative;
 }
 .home-image img {
     width: 400px;
     position: relative;
     top: -60px;
+}
+@media ( max-width: 900px ) {
+    .home-image {
+        width: 200px;
+        height: 200px;
+    }
+    .home-image img {
+        width: 200px;
+        top: -40px;
+    }
+    .title-inner h1 {
+        font-size: 50px;
+    }
+    .title-inner p {
+        font-size:  20px;
+    }
 }

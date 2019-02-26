@@ -19,6 +19,10 @@ export default class Skills extends Component {
                         <p>REACT.js</p>
                     </div>
                     <div>
+                        <img src={javascriptIcon} />
+                        <p>JavaScript</p>
+                    </div>
+                    <div>
                         <img src={htmlIcon} />
                         <p>HTML 5</p>
                     </div>
@@ -29,10 +33,6 @@ export default class Skills extends Component {
                     <div>
                         <img src={githubIcon} />
                         <p>Github</p>
-                    </div>
-                    <div>
-                        <img src={javascriptIcon} />
-                        <p>JavaScript</p>
                     </div>
                     <div>
                         <img src={nodeIcon} />
@@ -56,6 +56,16 @@ export default class Skills extends Component {
                     </div >
                     <div className='skill_description'>
                         <div className='skill-title'>
+                            <h2>JavaScript </h2>
+                        </div>
+                        <div className='skill-body'>
+                            <p>
+                                All my code is in JS. I build React based website applications and use JS for both my front and back ends by implementing Node.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='skill_description'>
+                        <div className='skill-title'>
                             <h2>HTML & CSS </h2>
                         </div>
                         <div className='skill-body'>
@@ -68,16 +78,6 @@ export default class Skills extends Component {
                         </div>
                         <div className='skill-body'>
                             <p>Github is a staple when working on projects. I try to keep my profile up to date at all times as well as see what other friends are doing. Check out my profile <a href='https//github.com/jhorton84'>here</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='skill_description'>
-                        <div className='skill-title'>
-                            <h2>JavaScript </h2>
-                        </div>
-                        <div className='skill-body'>
-                            <p>
-                                All my code is in JS. I build React based website applications and use JS for both my front and back ends by implementing Node.
                             </p>
                         </div>
                     </div>

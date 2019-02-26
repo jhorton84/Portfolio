@@ -9,7 +9,7 @@ function Nav(props) {
             <div className='wrapper'>
                 <div className='brand'>
                     {/* <img src='http://www.logospng.com/images/107/downloads-archive-page-5-of-10-free-logo-elements-107167.png' /> */}
-                    <p>Justin Horton: Web Development</p>
+                    <h3>Justin Horton:</h3> <h4 className='web'>Web Development</h4>
                 </div>
                 <ul>
                     <li><NavLink activeClassName='active' exact to='/Portfolio'>home</NavLink></li>

@@ -67,7 +67,7 @@ export default class About extends Component {
                                     <li>Playing strategy board games and video games with my identical twin brother.</li>
                                     <li>Playing Golf.</li>
                                     <li>Reading Fiction and Non-fiction.</li>
-                                    <li>and Traveling.</li>
+                                    <li>Traveling.</li>
                                 </ul>
                             </div>
                         </div>

@@ -39,7 +39,8 @@
     margin: 50px;
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 .icon-container p {
     margin: 0;
@@ -47,4 +48,34 @@
 .icon-container img {
     height: 150px;
     margin: 0;
+}
+
+@media (max-height: 700px) {
+    .contact-inner-container textarea {
+        height: 100px;
+        width: 600px;
+    }
+    .icon-container img {
+        height: 100px;
+        margin: 0;
+    }
+    .submit-button {
+        /* width: 150px; */
+        /* background-color: orange;
+        border: none; */
+        /* color: white; */
+        /* font-size: 25px; */
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .contact-form {
+        /* background: pink; */
+        height: 300px;
+    }
+}
+@media (max-width: 1000px){
+    .contact-inner-container textarea {
+        height: 100px;
+        width: 400px;
+    }
 }
