@@ -7,7 +7,9 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='contact-component'>
-                <h1>CONTACT ME</h1>
+                <div className='contact-title'>
+                    <h1>CONTACT ME</h1>
+                </div>
                 <div className='contact-inner-container'>
                     <div className='contact-form'>
                         <form action="https://formspree.io/justin.horton13@gmail.com" method="POST" >

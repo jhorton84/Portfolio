@@ -77,7 +77,7 @@ class Projects extends Component {
                         </div>
                     </div> */}
                     <div className='project-title'>
-                        <h1>Projects</h1>
+                        <h1>PROJECTS</h1>
                     </div>
                     <div className='myProjects-container'>
                         <div className='myProjects'>
