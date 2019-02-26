@@ -44,9 +44,11 @@ class Projects extends Component {
         let myProjects = projects.map(e => {
             return (
                 <div className='projects'>
-                     <div className='projects-main'>
-                        <div className='large-image'>
-                            <img src={e.image} />
+                     <div className='projects-inner'>
+                        <div className='projects-main'>
+                            <div className='large-image-container'>
+                                <img src={e.image} />
+                            </div>
                             <div className='project-name-container'>
                                 <h2>{e.project}</h2>
                                 <div className='project-links'>

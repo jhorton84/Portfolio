@@ -1,5 +1,5 @@
 .about-component {
-    height: calc(100vh + 560px);
+    /* height: calc(100vh + 560px); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,4 +117,103 @@
 }
 .icons {
     margin: 30px;
+}
+
+
+@media (max-width: 400px) {
+    .about-component {
+        display: relative;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .about-component h1 {
+        font-size: 50px;
+    }
+    .about-component h2 {
+        font-size: 10px;
+    }
+    .about-component p {
+        font-size: 10px;
+        margin: 0;
+        font-weight: 600;
+    }
+    .about-inner {
+        top: 10px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about_title {
+        margin-bottom: 10px;
+        height: 100px;
+    }
+    .about-main {
+        /* background: red; */
+        flex-direction: column;
+    }
+    .left-container {
+        border: solid white 8px;
+        top: 0;
+        width: 100%;
+    }
+    .right-container {
+        border: solid orange 8px;
+        position: initial;
+        width: 100%;
+        background: white;
+        
+    }
+    .image-container {
+        width: 100%;
+        border: none;
+        background: black;
+    }
+    .image-container img {
+        width: 400px;
+        position: relative;
+        bottom: 100px;
+        background:black;
+        right:100px;
+    }
+    .about-body {
+        display: flex;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about-body p {
+        font-size: 15px;
+        margin: 10px;
+        color: black;
+    }
+    .about-body ul {
+        margin: 0;
+    }
+    .about-body li {
+        color: black;
+        font-size: 15px;
+        margin: 0;
+        font-weight: 600;
+    }
+    .icons-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background: black; */
+        color: black;
+        display: none;
+    }
+    .icons-container img {
+        height: 100px;
+    }
+    .icon-row {
+        display: flex;
+    }
+    .icons {
+        margin: 30px;
+    }
 }

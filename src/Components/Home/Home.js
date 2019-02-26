@@ -14,9 +14,6 @@ class Home extends Component {
         
         return (
             <div className='home-component'>
-                <div className='background-image'>
-                    <img src='https://www.newgenapps.com/hubfs/canvas/images/parallax/Website-Design-Background.png' />
-                </div>
                 <div className='header'>
                     <div className='title'>
                         <div className='title-inner'>

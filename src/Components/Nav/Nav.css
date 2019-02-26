@@ -93,6 +93,11 @@ li .active {
     /* background: yellow; */
     width: 100%;
 }
+.nav button {
+    display: none;
+}
+
+
 @media (max-width: 900px) {
     .brand {
         display: none;
@@ -113,4 +118,72 @@ li .active {
     .nav li {
         margin: 10px;
     }
+}
+@media (max-width: 400px) {
+    .nav {
+        position: absolute;
+        z-index: 10;
+        justify-content: flex-end;
+        /* top: 150px; */
+    }
+    .wrapper {
+        /* border: red solid 5px; */
+        width: 200px;
+        margin: 0;
+        transform-origin: 20px;
+        position: relative;
+        z-index: 0;
+    }
+    .showDropDown ul {
+        display: flex;
+        flex-direction: column;
+        background: rgb(0, 153, 255);
+        position: relative;
+        top: 175px;
+        right: 0px;
+        z-index: 6;
+        width: 200px;
+        transition: .5s;
+        overflow-x: hidden;
+        /* transform: translate(-400px); */
+    }
+    .wrapper li {
+        height: 30px;
+        width: 100px;
+        
+    }
+    .showDropDown {
+        /* position: relative; */
+        /* right: -400px; */
+    }
+    .hideDropDown ul {
+        display: flex;
+        flex-direction: column;
+        background: rgb(0, 153, 255);
+        position: relative;
+        top: 175px;
+        right: 0px;
+        z-index: 6;
+        width: 200px;
+        transition: 1s;
+        overflow-x: hidden;
+        /* width: 0px; */
+        transform: translate(400px);
+    }
+    .nav button {
+        background: orange;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 50px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50;
+        border-radius: 3px;
+    }
+    
 }

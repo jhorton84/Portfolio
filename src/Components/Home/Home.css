@@ -1,9 +1,11 @@
 .home-component {
     display: flex;
     justify-content: center;
-    /* background: blue; */
-    /* width:100vw; */
     background-origin: padding-box;
+    background-image: url('https://www.newgenapps.com/hubfs/canvas/images/parallax/Website-Design-Background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* height: 100%; */
 }
 .background-image {
@@ -23,6 +25,8 @@
     align-items: center;
     margin: 0 auto;
     top: 80px;
+    height: 400px;
+    /* background: salmon; */
     /* z-index: 5; */
 }
 .title {
@@ -90,16 +94,20 @@
     }
 }
 @media (max-width: 420px){
-    
-    .home-component{
-        /* height: 100px; */
+    .App-component {
+        /* overflow-y: hidden; */
     }
-    .background-image img{
-        height: 85%;
-        /* display: none; */
+    .home-component{
+        height: 530px;
+        position: relative;
+        top: 100px;
+        position: fixed;
     }
     .header {
         top: 20px;
+        justify-content: initial;
+        height: 300px;
+        /* background: green; */
     }
     .title {
         height: 100px;
@@ -113,6 +121,6 @@
     .home-image img {
         width: 120px;
         top: -20px;
-        right: 10px;
+        
     }
 }
