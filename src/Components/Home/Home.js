@@ -17,7 +17,7 @@ class Home extends Component {
                 <div className='background-image'>
                     <img src='https://www.newgenapps.com/hubfs/canvas/images/parallax/Website-Design-Background.png' />
                 </div>
-                <header>
+                <div className='header'>
                     <div className='title'>
                         <div className='title-inner'>
                             <h1>J.T. Horton</h1>
@@ -27,7 +27,7 @@ class Home extends Component {
                     <div className='home-image'>
                         <img src={profile_image} />
                     </div>
-                </header>
+                </div>
             </div>
         );
     }
