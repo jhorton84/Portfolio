@@ -134,24 +134,11 @@
     color: rgb(1, 29, 53);
 }
 @media (max-width: 400px) {
-    body {
-        /* height: 1000px; */
-        /* overflow: hidden; */
-        /* position: fixed; */
-    }
-    #root {
-        /* height: 100%;
-        overflow: hidden; */
-    }
     .App-component {
-        background: salmon;
         height: 100%;
-        /* overflow: hidden; */
     }
     .Projects-component {
-        /* height: 1400px; */
         height: 100%;
-        /* background: red; */
     }
     .Projects-component > div {
         /* background: gray; */
@@ -193,9 +180,9 @@
         width: 100%;
     }
     .project-name-container {
-        background: teal;
-        height: 20%;
-        padding: 10px;
+        background: orange;
+        height: 100px;
+        /* padding: 0px; */
         
     }
     .project-name-container h2 {
@@ -204,7 +191,7 @@
     }
     .project-links {
         position: relative;
-        top: 50px;
+        top: 10px;
     }
     .small-images {
         display: none;
