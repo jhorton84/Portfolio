@@ -8,7 +8,7 @@
     width: 100%;
     background-color: white;
     background: linear-gradient(right ,rgb(0, 153, 255), orange);
-    position: fixed;
+    /* position: fixed; */
 }
 
 .nav ul {
