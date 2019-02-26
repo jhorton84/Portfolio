@@ -12,7 +12,7 @@ function Nav(props) {
                     <h3>Justin Horton:</h3> <h4 className='web'>Web Development</h4>
                 </div>
                 <ul>
-                    <li><NavLink activeClassName='active' exact to='/#'>home</NavLink></li>
+                    <li><NavLink activeClassName='active' exact to='/home'>home</NavLink></li>
                     <li><NavLink activeClassName='active' exact to='/projects'>projects</NavLink></li>
                     <li><NavLink activeClassName='active' to='/skills'>skills</NavLink></li>
                     <li><NavLink activeClassName='active' to='/about'>about</NavLink></li>
