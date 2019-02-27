@@ -87,7 +87,7 @@ export default class Skills extends Component {
                         </div>
                         <div className='skill-body'>
                             <p>
-                                Currently I use Node for my back-end development with JS and install libraries I use with either NPM or Yarn.
+                                Node is what I use to connect my back and front ends and establish endpoints with RESTFUL api. I use NPM or Yarn to install dependencies that I use in my projects.
                             </p>
                         </div>
                     </div>
