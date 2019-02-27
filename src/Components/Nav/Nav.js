@@ -11,7 +11,7 @@ function Nav(props) {
             <div className={ props.toggle ? 'wrapper showDropDown' : 'wrapper hideDropDown'}>
                 <div className='brand'>
                     {/* <img src='http://www.logospng.com/images/107/downloads-archive-page-5-of-10-free-logo-elements-107167.png' /> */}
-                    <h3>Justin Horton:</h3> <h4 className='web'>Web Development</h4>
+                    <h3>Justin Horton</h3> <h4 className='web'>Web Development</h4>
                 </div>
                 
                 <ul>

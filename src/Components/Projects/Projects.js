@@ -21,7 +21,8 @@ class Projects extends Component {
                     smallImg1: magicBuilder,
                     smallImg2: magicDecks,
                     // smallImg3: '',
-                    github: 'https://github.com/jhorton84/MTG-deckbuilder'
+                    github: 'https://github.com/jhorton84/MTG-deckbuilder',
+                    description: 'First solo developed site. This site was created using the scryfall.com api for Magic The Gathering. It allows a user to search through the data of cards images and select the ones they want to create decks that might be used for playing the game, commonly referred to as a "deck builder".'
                 }, 
                 {
                     image: taskRabbit,
@@ -33,7 +34,8 @@ class Projects extends Component {
                     smallImg1: rabbitMessages,
                     smallImg2: rabbitForm,
                     // smallImg3: rabbitAccount,
-                    github: 'https://github.com/tiffzhong/task-rabbit'
+                    github: 'https://github.com/tiffzhong/task-rabbit',
+                    description: 'REACT | NODE | REDUX | REDUX-PROMISE-MIDDLEWARE | GOOGLEMAPS | STRIPE | SLICK In a group of three individuals, cloned the taskrabbit.com site. Split up the project into two sides, the client user and the tasker user. Client side was about hiring the tasker side to fulfill tasks such as deliveries, home improvement, repairs, etc.'
                     
                 }, 
             ]
@@ -51,6 +53,7 @@ class Projects extends Component {
                             </div>
                             <div className='project-name-container'>
                                 <h2>{e.project}</h2>
+                                <p>{e.description}</p>
                                 <div className='project-links'>
                                     <a href={e.link}  target='_blank' onClick={e.link}>
                                         <button  >Go to Site</button>

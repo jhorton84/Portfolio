@@ -12,6 +12,7 @@ export default class Contact extends Component {
                 </div>
                 <div className='contact-inner-container'>
                     <div className='contact-form'>
+                    <p>justin.horton13@gmail.com</p>
                         <form action="https://formspree.io/justin.horton13@gmail.com" method="POST" >
                             {/* <input type="text" name="name"></input> */}
                             <textarea type="email" name="message" placeholder='send me an email'></textarea>

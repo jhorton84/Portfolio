@@ -81,7 +81,10 @@
     flex-direction: column;
     
 }
-
+.project-name-container p {
+    /* background: black; */
+    margin: 15px;
+}
 .projects-main a {
     /* background: green; */
     display: flex;

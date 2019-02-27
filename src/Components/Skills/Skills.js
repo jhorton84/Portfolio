@@ -77,7 +77,7 @@ export default class Skills extends Component {
                             <h2>GITHUB </h2>
                         </div>
                         <div className='skill-body'>
-                            <p>Github is a staple when working on projects. I try to keep my profile up to date at all times as well as see what other friends are doing. Check out my profile <a href='https//github.com/jhorton84'>here</a>
+                            <p>Github is a staple when working on projects. I try to keep my profile up to date at all times as well as see what other friends are doing. Check out my profile <a href='https//github.com/jhorton84'>here</a>.
                             </p>
                         </div>
                     </div>
