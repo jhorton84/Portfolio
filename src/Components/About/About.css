@@ -1,11 +1,14 @@
 .about-component {
-    /* height: calc(100vh + 560px); */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(1, 29, 53);
     color: white;
-    position: relative;
+    /* position: relative; */
+    /* width: 100vw; */
+    padding-bottom: 50px;
+    /* position: fixed; */
     /* top: 10px; */
     /* justify-content: center; */
 }
@@ -27,7 +30,7 @@
     display: flex;
     background: red;
     position: relative;
-    top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,30 +59,34 @@
     display: flex;
     justify-content: center;
     box-shadow: 12px 12px 24px 4px rgb(7, 7, 7);
+    flex-direction: column;
 }
-.left-container {
+.top-container {
     /* background: whitesmoke; */
     border: solid orange 8px;
     border-right: none;
+    display: flex;
     /* background: rgb(8, 187, 184); */
 }
-.right-container {
+.bottom-container {
     border: solid orange 8px;
     /* background: whitesmoke; */
 }
 .image-container {
     border: white solid 6px;
-    height: 300px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+    /* height: 300px; */
+    /* width: 400px; */
     overflow: hidden;
     left: -550px;
     top: 50px;
 }
 .image-container img {
-    width: 410px;
+    height: 800px;
     position: relative;
     bottom: 90px;
-    
+    right: 90px;
 }
 .about-body {
     display: flex;
@@ -87,23 +94,26 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    /* background: red; */
+    width: 60%;
 }
 .about-body p {
     margin: 10px;
     color: black;
+    font-size: 20px;
 }
 .about-body ul {
     margin: 0;
 }
 .about-body li {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     font-weight: 600;
 }
 .icons-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     /* background: black; */
@@ -117,16 +127,32 @@
 }
 .icons {
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
+@media (max-width: 1500px) {
+    .icons {
+        margin: 15px 10px;
+    }
+    .icons-container img {
+        height: 80px;
+        
+    }
+    .icons p {
+        font-size: 10px;
+    }
+}
 @media (max-width: 400px) {
     .about-component {
-        display: relative;
-        padding-top: 100px;
+        position: relative;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         padding-bottom: 50px;
+        height: auto;
+        /* width: 400px; */
     }
     .about-component h1 {
         font-size: 50px;
@@ -144,22 +170,26 @@
         width: 400px;
         display: flex;
         flex-direction: column;
+        
     }
     .about_title {
         margin-bottom: 10px;
         height: 100px;
     }
     .about-main {
-        /* background: red; */
+        background: red;
+        flex-direction: column;
+        border: orange solid 4px;
+    }
+    .top-container {
+        border: none;
+        top: 0;
+        width: auto;
+        display: flex;
         flex-direction: column;
     }
-    .left-container {
-        border: solid white 8px;
-        top: 0;
-        width: 100%;
-    }
-    .right-container {
-        border: solid orange 8px;
+    .bottom-container {
+        border: none;
         position: initial;
         width: 100%;
         background: white;
@@ -169,13 +199,16 @@
         width: 100%;
         border: none;
         background: black;
+        height: 250px;
+        border-bottom: solid orange 4px;
     }
     .image-container img {
-        width: 400px;
+        width: 300px;
+        height: auto;
         position: relative;
-        bottom: 100px;
+        bottom: 50px;
         background:black;
-        right:100px;
+        right:10px;
     }
     .about-body {
         display: flex;
@@ -183,6 +216,8 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
+        width: auto;
+        background: white;
     }
     .about-body p {
         font-size: 15px;

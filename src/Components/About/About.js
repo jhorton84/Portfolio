@@ -20,11 +20,25 @@ export default class About extends Component {
                         <p>Web Developer & Designer</p> */}
                     </div>
                     <div className='about-main'>
-                        <div className='left-container'>
+                        <div className='top-container'>
                             <div className='image-container'>
                                 <img src={profile_image} />
                             </div>
-                            <div className='icons-container'>
+                            <div className='about-body'>
+                                <p>I have always been passionate about being creative as well as problem solving. Web development has allowed me to mix both of those passions together and is not only a way for me to support my family, but also a hobby. I'm always looking to grow my knowledge as a developer and currently specialize in React, CSS, HTML, Redux, Node.js, and PostgresSQL.  </p>
+                                <p className='second-body'>Before learning web development I worked in retail as a salesman and in leadership positions. I was fortunate enough to then be able to work as a graphic designer for a small company for several years which eventually led to me learning web development and where I am today.</p>
+                                <p>The things I enjoy outside of work are:</p>
+                                <ul>
+                                    <li>Spending time with my daughter.</li>
+                                    <li>Playing strategy board games and video games with my identical twin brother.</li>
+                                    <li>Playing Golf.</li>
+                                    <li>Reading Fiction and Non-fiction.</li>
+                                    <li>Traveling.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='bottom-container'>
+                        <div className='icons-container'>
                                 <div className='icon-row'>
                                     <div className='icons'>
                                         <img src={reactIcon}/>
@@ -56,20 +70,7 @@ export default class About extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className='right-container'>
-                            <div className='about-body'>
-                                <p>I have always been passionate about being creative as well as problem solving. Web development has allowed me to mix both of those passions together and is not only a way for me to support my family, but also a hobby. I'm always looking to grow my knowledge as a developer and currently specialize in React, CSS, HTML, Redux, Node.js, and PostgresSQL.  </p>
-                                <p className='second-body'>Before learning web development I worked in retail as a salesman and in leadership positions. I was fortunate enough to then be able to work as a graphic designer for a small company for several years which eventually led to me learning web development and where I am today.</p>
-                                <p>The things I enjoy outside of work are:</p>
-                                <ul>
-                                    <li>Spending time with my daughter.</li>
-                                    <li>Playing strategy board games and video games with my identical twin brother.</li>
-                                    <li>Playing Golf.</li>
-                                    <li>Reading Fiction and Non-fiction.</li>
-                                    <li>Traveling.</li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
