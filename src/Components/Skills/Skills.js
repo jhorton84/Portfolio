@@ -14,31 +14,31 @@ export default class Skills extends Component {
         return (
             <div className='skills-component'>
                 <div className='skills-inner-container'>
-                    <div>
+                    <div className='skill-container'>
                         <img src={reactIcon}/>
                         <p>REACT.js</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={javascriptIcon} />
                         <p>JavaScript</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={htmlIcon} />
                         <p>HTML 5</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={cssIcon} />
                         <p>CSS 3</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={githubIcon} />
                         <p>Github</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={nodeIcon} />
                         <p>NODE.js</p>
                     </div>
-                    <div>
+                    <div className='skill-container'>
                         <img src={npmIcon} />
                         <p>NPM</p>
                     </div>

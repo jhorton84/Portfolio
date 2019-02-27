@@ -25,6 +25,11 @@
     justify-content: center;
     /* box-shadow: 12px 12px 24px 4px rgb(7, 7, 7); */
 }
+.skill-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .descriptions {
     margin-top: 20px;
     display: flex;
