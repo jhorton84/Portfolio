@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import profile_image from '../../images/profile_image.jpg';
+import profile_image from '../../images/profile_pic.jpg';
 import htmlIcon from '../../images/skills_icons/icons8-html-5.svg';
 import githubIcon from '../../images/skills_icons/icons8-github.svg';
 import cssIcon from '../../images/skills_icons/icons8-css3.svg';

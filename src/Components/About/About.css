@@ -83,10 +83,10 @@
     top: 50px;
 }
 .image-container img {
-    height: 800px;
+    height: 700px;
     position: relative;
-    bottom: 90px;
-    right: 90px;
+    bottom: 100px;
+    right: 350px;
 }
 .about-body {
     display: flex;

@@ -70,9 +70,10 @@
     
 }
 .home-image img {
-    width: 400px;
+    height: 420px;
     position: relative;
-    top: -60px;
+    right: 150px;
+    /* top: 5px; */
 }
 /* @media ( max-width: 900px ) {
     .home-image {
