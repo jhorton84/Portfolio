@@ -5,12 +5,8 @@
     align-items: center;
     background-color: rgb(1, 29, 53);
     color: white;
-    /* position: relative; */
-    /* width: 100vw; */
+    /* padding-top: 100px; */
     padding-bottom: 50px;
-    /* position: fixed; */
-    /* top: 10px; */
-    /* justify-content: center; */
 }
 .about-component h1 {
     font-size: 100px;
