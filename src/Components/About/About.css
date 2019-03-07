@@ -17,7 +17,7 @@
     margin: 0;
 }
 .about-component p {
-    font-size: 30px;
+    /* font-size: 30px; */
     margin: 0;
     font-weight: 600;
 }
@@ -32,7 +32,7 @@
 }
 .about_title {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -47,8 +47,8 @@
     border: solid orange 8px;
     color: white;
     display: flex;
-    width: 70%;
-    /* height: 80%; */
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     box-shadow: 12px 12px 24px 4px rgb(7, 7, 7);
@@ -90,14 +90,14 @@
 .about-body p {
     margin: 5px;
     color: black;
-    font-size: 90%;
+    /* font-size: 90%; */
 }
 .about-body ul {
     margin: 0;
 }
 .about-body li {
     color: black;
-    font-size: 90%;
+    /* font-size: 90%; */
     margin: 0;
     font-weight: 600;
 }
@@ -109,20 +109,31 @@
     color: black;
     /* background: red; */
 }
-.icons-container img {
-    height: 60px;
+.icon-image-container {
+    background: green;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-image-container img {
+    height: 70%;
 }
 .icon-row {
     display: flex;
+    background: red;
+    height: 80%;
 }
 .icons {
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: pink;
 }
 .icons p {
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 

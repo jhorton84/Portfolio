@@ -10,7 +10,50 @@ import nodeIcon from '../../images/skills_icons/icons8-nodejs.svg';
 // import npmIcon from '../../images/skills_icons/icons8-npm.svg';
 
 export default class About extends Component {
+    constructor() {
+        super();
+        this.state = {
+            icons: [
+                {
+                    image:reactIcon,
+                    name: 'React.js'
+                },
+                {
+                    image:htmlIcon,
+                    name: 'HTML 5'
+                },
+                {
+                    image:githubIcon,
+                    name: 'Github'
+                },
+                {
+                    image:cssIcon,
+                    name: 'CSS 3'
+                },
+                {
+                    image:javascriptIcon,
+                    name: 'JavaScript'
+                },
+                {
+                    image:nodeIcon,
+                    name: 'Node.js'
+                },
+
+            ]
+        }
+    }
     render() {
+        const { icons } = this.state;
+        let mappedIcons = icons.map(e => {
+            return (
+                <div className='icons'>
+                    <div className='icon-image-container'>
+                        <img src={e.image}/>
+                    </div>
+                    <p>{e.name}</p>
+                </div>
+            )
+        })
         return (
             <div className='about-component'>
                 <div className='about-inner'>
@@ -38,39 +81,11 @@ export default class About extends Component {
                             </div>
                         </div>
                         <div className='bottom-container'>
-                        <div className='icons-container'>
+                            <div className='icons-container'>
                                 <div className='icon-row'>
-                                    <div className='icons'>
-                                        <img src={reactIcon}/>
-                                        <p>REACT.js</p>
-                                    </div>
-                                    <div className='icons'>
-                                        <img src={htmlIcon} />
-                                        <p>HTML 5</p>
-                                    </div>
-                                </div>
-                                <div className='icon-row'>
-                                    <div className='icons'>
-                                        <img src={githubIcon} />
-                                        <p>Github</p>
-                                    </div>
-                                    <div className='icons'>
-                                        <img src={cssIcon} />
-                                        <p>CSS 3</p>
-                                    </div>
-                                </div>
-                                <div className='icon-row'>
-                                    <div className='icons'>
-                                        <img src={javascriptIcon} />
-                                        <p>JavaScript</p>
-                                    </div>
-                                    <div className='icons'>
-                                        <img src={nodeIcon} />
-                                        <p>Node.js</p>
-                                    </div>
+                                    {mappedIcons}
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
