@@ -110,7 +110,7 @@
     /* background: red; */
 }
 .icon-image-container {
-    background: green;
+    /* background: green; */
     height: 100%;
     width:100%;
     display: flex;
@@ -122,7 +122,7 @@
 }
 .icon-row {
     display: flex;
-    background: red;
+    /* background: red; */
     height: 80%;
 }
 .icons {
@@ -130,7 +130,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: pink;
+    /* background: pink; */
 }
 .icons p {
     /* font-size: 15px; */
